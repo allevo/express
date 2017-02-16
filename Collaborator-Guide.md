@@ -5,22 +5,26 @@ Open issues for the expressjs.com website in https://github.com/expressjs/expres
 
 ## PRs and Code contributions
 
+This project uses [JavaScript standard style](http://standardjs.com/).  Please ensure your code follows this style.
+
+Also:
+
 * Tests must pass.
-* Follow existing coding style.
 * If you fix a bug, add a test.
 
 ## Branches
 
-* Use the `master` branch for bug fixes or minor work that is intended for the current release stream
-* Use the correspondingly named branch, e.g. `5.0`, for anything intended for a future release of Express 
+Use the `master` branch for bug fixes or minor work that is intended for the current release stream.
+
+Use the correspondingly named branch, e.g. `5.0`, for anything intended for a future release of Express.
 
 ## Steps for contributing
 
-* [Create an issue](https://github.com/expressjs/express/issues/new) for the bug you want to fix or the feature that you want to add.
-* Create your own [fork](https://github.com/expressjs/express) on github, then checkout your fork.
-* Write your code in your local copy. It's good practice to create a branch for each new issue you work on, although not compulsory.
-* To run the test suite, first install the dependencies by running `npm install`, then run `npm test`.
-* If the tests pass, you can commit your changes to your fork and then create a pull request from there. Make sure to reference your issue from the pull request comments by including the issue number e.g. #123.
+1. [Create an issue](https://github.com/expressjs/express/issues/new) for the bug you want to fix or the feature that you want to add.
+1. Create your own [fork](https://github.com/expressjs/express) on github, then checkout your fork.
+1. Write your code in your local copy. It's good practice to create a branch for each new issue you work on, although not compulsory.
+1. To run the test suite, first install the dependencies by running `npm install`, then run `npm test`.
+1. If the tests pass, you can commit your changes to your fork and then create a pull request from there. Make sure to reference your issue from the pull request comments by including the issue number e.g. #123.
 
 ## Issues which are questions
 
